@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashmix</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_main d-flex f-wrap space-between">
+            <div class="bar d-flex f-wrap">
+                <a href="javascript:void(0);"><i class="fa-solid fa-bars"></i></a>
+                <div class="search">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Search</span></a>
+                </div>
+            </div>
+
+            <div class="header_right d-flex f-wrap align-center justify-content-center">
+                <div class="admin ">
+                    <a href="javascript:void(0);" class="nav"><span>Admin</span>
+                        <i class="fa-solid fa-angle-down " style="color: #fff;"></i></a>
+
+                    <ul class="drop pst" style="display: none;">
+                        <li class="usr"><a href="">User Option</a></li>
+                        <li class="usr_1"><i class="fa-regular fa-user" style="color: #bcc7e1;"></i><a href="">Profile</a></li>
+                        <li class="usr_1"><i class="fa-regular fa-envelope" style="color: #bcc7e1;"></i><a href="">Inbox</a></li>
+                        <li class="usr_1_2"><i class="fa-regular fa-file" style="color: #bcc7e1;"></i><a href="">Invoices</a>
+
+                            <h3 class="three">3</h3>
+
+                        </li>
+                        <div class="space"></div>
+                        <li class="usr_1_3"><i class="fa-regular fa-building" style="color: #bcc7e1;"></i><a href="">Settings</a></li>
+                        <div class="space"></div>
+                        <li class="usr_1_3"><i class="fa-regular fa-circle-arrow-left" style="color: #bcc7e1;"></i><a href="">Sign Out</a></li>
+                    </ul>
+                </div>
+                <div class="bell">
+                    <a href=""><i class="fa-solid fa-bell"></i></a>
+                </div>
+                <div class="bell">
+                    <a href=""><i class="fa-solid fa-list"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- aside start -->
+    <aside class="aside">
+        <div class="aside_main d-flex f-wrap space-between">
+            <div class="logo ">
+                <span class="dash">Dash<span class="mix">mix</span></span>
+            </div>
+
+            <div class="dash_font">
+                <i class="fa-solid fa-battery-quarter" style="color: white;"></i>
+                <i class="fa-solid fa-moon" style="color: white;"></i>
+            </div>
+        </div>
+
+        <div class="aside_content">
+            <div class="db_main d-flex f-wrap space-between">
+                <div class="dashboard">
+                    <i class="fa-solid fa-location-arrow" style="color: #546078;"></i>
+                    <span>Dashboard</span>
+                </div>
+                <div class="eight">
+                    <span>8</span>
+                </div>
+            </div>
+
+            <ul>
+                <li class="">
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op  pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-clone" style="color: #546078;"></i>
+                                <span style="color: #b4bccb;">Page Kits</span>
+                            </div>
+
+                            <div class="angle align-center">
+                                <i class="fa-solid fa-angle-down"  style="color: #546078;"></i>
+                                <!-- <i class="fa-solid fa-angle-up"></i> -->
+                            </div>
+                        </div>
+                    </a>
+
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Generic</li>
+                            <li>E-Commerce</li>
+                            <li>Projects</li>
+                            <li>Education</li>
+                            <li>Forum</li>
+                            <li>Blog</li>
+                            <li>Boxed backened</li>
+                            <li>Special</li>
+                        </a>
+                    </ul>
+
+                </li>
+            </ul>
+
+            <div class="base">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span style="color: #697896;">BASE</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-border-all" style="color: #546078;"></i>
+                                <span style="color: #b2bbca;">Blocks</span>
+                            </div>
+                            <div class="angle align-center">
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                             
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Styles</li>
+                            <li>Options</li>
+                            <li>Forms</li>
+                            <li>Themes</li>
+                            <li>API</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-note-sticky" style="color: #546078;"></i>
+                                <span style="color: #b2bbca; margin-left: -2px;">Widgets</span>
+                            </div>
+                            <div class="angle align-center">
+                               
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Tiles</li>
+                            <li>statistics</li>
+                            <li>Media</li>
+                            <li>Users</li>
+                            <li>Blog</li>
+                            <li>Various</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-slack" style="color: #546078;"></i>
+                                <span style="color: #b2bbca;">Layout</span>
+                            </div>
+                            <div class="angle align-center">
+                                
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Page</li>
+                            <li>Main Content</li>
+                            <li>Side Content</li>
+                            <li>Header</li>
+                            <li>Footer</li>
+                            <li>Sidebar</li>
+                            <li>Side Overlay</li>
+                            <li>API</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="base">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span style="color: #697896;">INTERFACE</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-cookie-bite" style="color: #546078;"></i>
+                                <span style="color: #b2bbca;">Elements</span>
+                            </div>
+                            <div class="angle align-center">
+                               
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Icon Packs</li>
+                            <li>Grid</li>
+                            <li>Typography</li>
+                            <li>Navigation</li>
+                            <li>Horizontal Nav</li>
+                            <li>Mega Menu</li>
+                            <li>Tabs</li>
+                            <li>Buttons</li>
+                            <li>Buttons Groups</li>
+                            <li>Dropdowns</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-stapler" style="color: #546078;"></i>
+                                <span style="color: #b2bbca;">Tables</span>
+                            </div>
+                            <div class="angle align-center">
+                               
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Styles</li>
+                            <li>Responsive</li>
+                            <li>Helpers</li>
+                            <li>Data Tables</li>
+                            <li>Horizontal Nav</li>
+                            <li>Mega Menu</li>
+                            <li>Tabs</li>
+                            <li>Buttons</li>
+                            <li>Buttons Groups</li>
+                            <li>Dropdowns</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-table-list" style="color: #546078;"></i>
+                                <span style="color: #b2bbca;">Forms</span>
+                            </div>
+                            <div class="angle align-center">
+                                
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Elements</li>
+                            <li>Layouts</li>
+                            <li>Input Groups</li>
+                            <li>Plugins</li>
+                            <li>Editors</li>
+                            <li>CK Editor 5</li>
+                            <li>Validation</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <div class="base">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span style="color: #697896;">EXTEND</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-print" style="color: #546078;"></i>
+                                <span style="color: #b2bbca; margin-left: -4px;">Components</span>
+                            </div>
+                            <div class="angle align-center">
+                               
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Chat</li>
+                            <li>Onboarding</li>
+                            <li>Nestable</li>
+                            <li>Dialogs</li>
+                            <li>Notifications</li>
+                            <li>Loaders</li>
+                            <li>Charts</li>
+                            <li>Gallery</li>
+                            <li>Sliders</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-briefcase" style="color: #546078;"></i>
+                                <span style="color: #b2bbca; margin-left: -4px;">Main Menu</span>
+                            </div>
+                            <div class="angle align-center">
+                               
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>1.1 Item</li>
+                            <li>1.2 Item</li>
+                            <li>1.3 Item</li>
+                            <li>Sub Leval 2</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <div class="base">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span style="color: #697896;">PAGES</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-share" style="color: #546078;"></i>
+                                <span style="color: #b2bbca;">Dashboards</span>
+                            </div>
+                            <div class="angle align-center">
+                               
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>All</li>
+                            <li>Corporate v1</li>
+                            <li>Social</li>
+                            <li>Messages</li>
+                            <li>Dark</li>
+                            <li>Minimal</li>
+                            <li>Modern</li>
+                            <li>Classic Boxed</li>
+                            <li>Banking</li>
+                            <li>Crypto</li>
+                            <li>Hosting</li>
+                            <li>Booking</li>
+                            <li>Gaming</li>
+                            <li>Tasks</li>
+                            <li>Medical</li>
+                            <li>Travel</li>
+                            <li>Social Compact</li>
+                            <li>chat</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-users-gear" style="color: #546078;"></i>
+                                <span style="color: #b2bbca; margin-left: -4px;">Auth</span>
+                            </div>
+                            <div class="angle align-center">
+                                
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>All</li>
+                            <li>Sign In</li>
+                            <li>Sign In Box</li>
+                            <li>Sign In Box Alt</li>
+                            <li>Sign Up</li>
+                            <li>Sign Up Box</li>
+                            <li>Sign Up Box Alt</li>
+                            <li>Lock Screen</li>
+                            <li>Lock Screen Box</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-triangle-exclamation" style="color: #546078;"></i>
+                                <span style="color: #b2bbca;">Error</span>
+                            </div>
+                            <div class="angle align-center">
+                               
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>All</li>
+                            <li>400</li>
+                            <li>401</li>
+                            <li>403</li>
+                            <li>404</li>
+                            <li>500</li>
+                            <li>503</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="nav-link clk">
+                        <div class="op pk d-flex f-wrap space-between align-center">
+                            <div class="pk_1">
+                                <i class="fa-solid fa-mug-saucer" style="color: #546078; margin-left: -4px;"></i>
+                                <span style="color: #b2bbca; margin-left: -4px;">Get Started</span>
+                            </div>
+                            <div class="angle align-center">
+                                
+                                <i class="fa-solid fa-angle-down" style="color: #546078; margin-left: 5px;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown">
+                        <a href="">
+                            <li>Backend</li>
+                            <li>Backend Boxed</li>
+                            <li>Landing</li>
+                            <li>RTL Backend</li>
+                            <li>RTL Backend Boxed</li>
+                            <li>RTL Landing</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </div>
+    </aside>
+
+
+
+    <!-- content -->
+    <section class="main_content">
+
+        <div class="content d-flex f-wrap">
+            <div class="row_main d-flex f-wrap space-between">
+                <div class="row_1 ">
+                    <h1>Dashboard</h1>
+                    <h3>Welcome, admin! You have <span>8 new notifications.</span></h3>
+                </div>
+
+                <div class="row_2 d-flex f-wrap align-center">
+                    <div class="row_2_1 d-flex">
+                        <a href=""><i class="fa-solid fa-gear"></i></a> 
+                    </div>
+                    <div class="row_2_2">
+                        <a href="" style="color: #043d7d;">Last 30 days</a>
+                        <a href=""><i class="fa-solid fa-angle-down" style="color: #546078;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box_2 border">
+                <div class="reg">
+                    <i class="fa-solid fa-users" style="color: #1b83f8;"></i>
+                    <h4 style="color: #96a1b6;">2,388</h4>
+                    <span>Registered Users<br></span>
+                    <div class="percent">
+                        <i class="fa-solid fa-caret-up"></i><span>19.2%</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="vau" href="#">Veiw all Users
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="box_3 border">
+                <div class="reg">
+                    <i class="fa-solid fa-turn-up" style="color: #1b83f8;"></i>
+                    <h4 style="color: #96a1b6;">14.6%</h4>
+                    <span>Bounce Rate<br></span>
+                    <div class="percent">
+                        <i style="color: #e75f2d;" class="fa-solid fa-caret-down"></i><span
+                            style="color: #e75f2d;">2.3%</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="vau" href="#">Explore Analytics
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="box_4 border">
+                <div class="reg">
+                    <i class="fa-solid fa-chart-line" style="color: #1b83f8;"></i>
+                    <h4 style="color: #96a1b6;">386</h4>
+                    <span>Confirmed Sales<br></span>
+                    <div class="percent">
+                        <i class="fa-solid fa-caret-up"></i><span>7.9%</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="vau" href="#">Veiw all Sales
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="box_5 border">
+                <div class="reg">
+                    <i class="fa-solid fa-wallet" style="color: #1b83f8;"></i>
+                    <h4 style="color: #96a1b6;">$4,920</h4>
+                    <span>Total Earnings<br></span>
+                    <div class="percent">
+                        <i style="color: #e75f2d;" class="fa-solid fa-caret-down"></i><span
+                            style="color: #e75f2d;">0.3%</span>
+                    </div>
+
+                </div>
+                <div>
+                    <a class="vau" href="#">Withdrawal Options
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="box_6 border">
+                <div class="store d-flex f-wrap space-between">
+                    <div class="str">
+                        <span>Store Growth</span>
+                    </div>
+                    <div class="str_set">
+                        <a><i class="fa-solid fa-arrows-rotate"></i></a>
+                        <a><i class="fa-solid fa-wrench"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box_7 border">
+                <div class="store_main">
+                    <div class="str_main">
+                        <div class="str_1">
+                            <span>1,430</span>
+                        </div>
+                        <div class="str_2">
+                            <span>Your new website Cutomers</span>
+                        </div>
+                        <div class="str_3 d-flex f-wrap">
+                            <div class="str_3_i">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </div>
+                            <div class="str_3_span">
+                                <span>You have a <span style="color: #7cae47;"> 12% customer growth </span> in the last
+                                    30
+                                    days.
+                                    This is amazing, keep it up!</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="str_main">
+                        <div class="str_1">
+                            <span>65</span>
+                        </div>
+                        <div class="str_2">
+                            <span>New products added</span>
+                        </div>
+                        <div class="str_3 d-flex f-wrap">
+                            <div class="str_3_i">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </div>
+                            <div class="str_3_span">
+                                <span>You’ve managed to add <span style="color: #7cae47;"> 12% more products </span> in
+                                    the
+                                    last 30 days. Store’s portfolio is
+                                    growing!</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box_8 border">
+                <div id="bar-chart"></div>
+            </div>
+            <div class="box_9 border">
+                <div class="store d-flex f-wrap space-between">
+                    <div class="str">
+                        <span>Latest Orders</span>
+                    </div>
+                    <div class="str_set">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                </div>
+
+                <table style="width: 100%;">
+                    <tr>
+                        <th>PRODUCT</th>
+                        <th>DATE</th>
+                        <th>STATUS</th>
+                        <th>PRICE</th>
+                        <th></th>
+                    </tr>
+                    <tr class="lo_1">
+                        <td class="a">iPhone 11 Pro</td>
+                        <td class="b">today</td>
+                        <td class="c">Pending..</td>
+                        <td class="d">$1199,99</td>
+                        <td class="e"><a href="">View</a></td>
+                    </tr>
+                    <tr class="lo_2">
+                        <td class="a_1">MacBook Pro 15"</td>
+                        <td class="b_1">today</td>
+                        <td class="c_1">Pending..</td>
+                        <td class="d_1">$2.299,00</td>
+                        <td class="e_1"><a href="">View</a></td>
+                    </tr>
+                    <tr class="lo_1">
+                        <td class="a">Nvidia GTX 2080 Ti</td>
+                        <td class="b">today</td>
+                        <td class="c">Pending..</td>
+                        <td class="d">$1200,00</td>
+                        <td class="e"><a href="">View</a></td>
+                    </tr>
+                    <tr class="lo_2">
+                        <td class="a_1">Playstation 4 Pro</td>
+                        <td class="b_1">today</td>
+                        <td class="c_1">Pending..</td>
+                        <td class="d_1">$399,00</td>
+                        <td class="e_1"><a href="">View</a></td>
+                    </tr>
+                    <tr class="lo_1">
+                        <td class="a">Nintendo Switch</td>
+                        <td class="b">yesterday</td>
+                        <td class="c" style="color: #e75f2d;">Canceled</td>
+                        <td class="d">$349,00</td>
+                        <td class="e"><a href="">View</a></td>
+                    </tr>
+                    <tr class="lo_2">
+                        <td class="a_1">iPhone 11</td>
+                        <td class="b_1">yesterday</td>
+                        <td class="c_1" style="color: #7cae47;">Completed</td>
+                        <td class="d_1">$999,00</td>
+                        <td class="e_1"><a href="">View</a></td>
+                    </tr>
+                    <tr class="lo_1">
+                        <td class="a">Airpods Pro</td>
+                        <td class="b">yesterday</td>
+                        <td class="c" style="color: #7cae47;">Completed</td>
+                        <td class="d">$39,99</td>
+                        <td class="e"><a href="">View</a></td>
+                    </tr>
+                    <tr class="lo_2">
+                        <td class="a_1">Xbox One X</td>
+                        <td class="b_1">yesterday</td>
+                        <td class="c_1" style="color: #7cae47;">Completed</td>
+                        <td class="d_1">$499,00</td>
+                        <td class="e_1"><a href="">View</a></td>
+                    </tr>
+                </table>
+                <div class="table_down">
+                    <a class="arrow" href="">View all orders
+                        <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="box_10 border">
+                <div class="co_or d-flex f-wrap space-between">
+                    <div class="co_or_span">
+                        <span class="co_1">35,698</span><br>
+                        <span class="co">Completed orders</span>
+                    </div>
+                    <div class="co_or_i d-flex ">
+                        <i class="fa-solid fa-check" style="color: #1b83f8;"></i>
+                    </div>
+                </div>
+                <div class="co_or_1">
+                    <a class="arrow" href="">View Archive
+                        <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="box_11 border">
+                <div class="prod">
+                    <div class="prod_1">
+                        <div class="prod_1_i d-flex f-wrap">
+                            <i class="fa-solid fa-box-archive d-flex" style="color: #1b83f8;"></i>
+                        </div>
+                        <h4 style="color: #96a1b6;">75</h4>
+                        <span class="po">Products out of stock<br></span>
+                        <div class="prod_span2">
+                            <span>5% of portfolio</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="prod_2">
+                    <a class="arrow" href="">Order supplies
+                        <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <!-- <div class="container"> -->
+            <div class="dashmix_5 d-flex f-wrap space-between">
+                <div class="dashmix_5_1">
+                    <a href=""><span>Dashmix 5.9</span> © 2024</a>
+                </div>
+                <div class="dashmix_5_2">
+                    <a href="">Crafted with
+                        <i class="fa-solid fa-heart" style="color: #e75f2d;"></i>by <span class="dashmix_5_1">pixelcave</span></a>
+                </div>
+            </div>
+        <!-- </div> -->
+    </footer>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <!-- main.js -->
+    <script src="assets/js/main.js"></script>
+    <!-- apex chart -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- apex chart js -->
+    <script src="assets/js/apexchart.js"></script>
+</body>
+
+</html>
